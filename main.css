@@ -4,6 +4,21 @@ body {
     padding: 3em;
 }
 
+/* Para 1000px */  
+@media only screen and (max-width: 1000px) and (min-width: 801px) {  
+  font-family: 'Pacifico', cursive;
+}  
+  
+/* Para 800px */  
+@media only screen and (max-width: 800px) and (min-width: 481px) {  
+  font-family: 'Monserrat', sans-serif;
+}  
+  
+/* Para 480px */  
+@media only screen and (max-width: 480px) {  
+  font-family: 'Roboto', sans-serif;
+}  
+
 #v0 {
     position: fixed;
     bottom: 0;
